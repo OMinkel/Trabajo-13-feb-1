@@ -1,19 +1,17 @@
 *{
     margin: 0;
     padding: 0;
-    background-color: white;
-    background-image: url(https://i.pinimg.com/736x/e5/6d/04/e56d04cebdef4c4689b18dbfacead479.jpg);
-    background-size: cover;
+
 }
 
 body {
     font-family: Arial, sans-serif;
     height: 100vh;
-    color: black;
 }
 
 .container{
-    background-color: rgb(30, 131, 131);
+    background-image: url(https://i.pinimg.com/736x/e5/6d/04/e56d04cebdef4c4689b18dbfacead479.jpg);
+    background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -24,6 +22,8 @@ body {
 .box{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    background-image: url(https://i.pinimg.com/736x/e5/6d/04/e56d04cebdef4c4689b18dbfacead479.jpg);
+    background-size: cover;
 }
 
 
@@ -31,8 +31,20 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    background-image: url(https://i.pinimg.com/736x/e5/6d/04/e56d04cebdef4c4689b18dbfacead479.jpg);
+    background-size: cover;
 }
 
+.btn:hover{
+    transition: 20ms;
+    background-image: url(https://i.pinimg.com/236x/a0/cc/be/a0ccbe5a738c319e82b6c386446ca68a.jpg);
+}
+
+.table{
+    background-image: url(https://i.pinimg.com/736x/e5/6d/04/e56d04cebdef4c4689b18dbfacead479.jpg);
+    background-size: cover;
+    background-color: black;
+}
 
 .table-container {
     width: 50%;
@@ -42,25 +54,31 @@ body {
 .data-table {
     width: 100%;
     border-collapse: collapse;
-    background: black;
+    background-image: url(https://i.pinimg.com/736x/e5/6d/04/e56d04cebdef4c4689b18dbfacead479.jpg);
+    background-size: cover;
+
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 
 
 .data-table th, .data-table td {
-    border: 1px solid black;
+    background-image: url(https://i.pinimg.com/736x/e5/6d/04/e56d04cebdef4c4689b18dbfacead479.jpg);
+    background-size: cover;
     padding: 10px;
     text-align: center;
 }
 
 
 .data-table th {
-    background-color: #3498db;
-    color: black;
+    background-image: url(https://i.pinimg.com/736x/e5/6d/04/e56d04cebdef4c4689b18dbfacead479.jpg);
+    background-size: cover;
+    background-color: black;
 }
 
 
 .data-table tr:nth-child(even) {
+    background-image: url(https://i.pinimg.com/736x/e5/6d/04/e56d04cebdef4c4689b18dbfacead479.jpg);
+    background-size: cover;
     background-color: black;
 }
 
